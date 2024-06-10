@@ -11,17 +11,17 @@ export default function Navbar() {
                         <ul className={navbar.navbarlist}>
                             <Link href="/mkashi"><img className={navbar.logoimg} src="/logo.svg" alt= "mkashima logo" width="130px" /></Link>
                             <li className={navbar.logoitem}>
-                                mkashima
+                                mkashi
                             </li>
-                            <br></br>
-                            <br></br>
+                            <br/>
+                            <br/>
                             <li className={navbar.navbaritem}><Link href="/mkashi"><a>/ HOME</a></Link></li>
-                            <li className={navbar.navbaritem}><Link href="/mkashi/pixel"><a>/ PIXELART</a></Link></li>
+                            <li className={navbar.navbaritem}><Link href="/mkashi/pixelart"><a>/ PIXELART</a></Link></li>
                             <li className={navbar.navbaritem}><Link href="/mkashi/gamedesign"><a>/ GAMEDESIGN</a></Link></li>
-                            <br></br>
+                            <br/>
                             <li className={navbar.navbaritem}><Link href="/mkashi/photography"><a>/ PHOTOGRAPHY</a></Link></li>
-                            <br></br>
-                            <br></br>
+                            <br/>
+                            <br/>
                         </ul>        
                     </div>  
                 </div>

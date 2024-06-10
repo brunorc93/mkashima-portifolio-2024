@@ -1,5 +1,5 @@
 import fotografia from './photography.module.css'
-import Layout from './layout'
+import Layout from '../layout'
 
 // Images
 
@@ -74,7 +74,7 @@ const port2 = '/photos/port/portraits (3).jpg'
 
 function Fotografia() {
     return (<section>
-        <h5>mkashi •</h5>
+        <h5>mkashi portfolio • 2024</h5>
         <h6>/ photo / photo / say cheese</h6>
         <h1>PHOTOS</h1>
         <div className={fotografia.row}>
