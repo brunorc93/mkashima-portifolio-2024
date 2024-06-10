@@ -27,8 +27,8 @@ export default function Layout({children}) {
                 </button>
                 <ul className={isOpen === false ? layout.mobile + ' ' + layout.navmob : layout.mobile + ' ' + layout.navmob +' ' + layout.active} 
                 onClick={openMenu}>
-                    <li className={layout.navmobitem}><Link href="/"><a>/ HOME</a></Link></li>
-                    <li className={layout.navmobitem}><Link href="/fotografia"><a>/ FOTOGRAFIA</a></Link></li>
+                    <li className={layout.navmobitem}><Link href="/mkashi"><a>/ HOME</a></Link></li>
+                    <li className={layout.navmobitem}><Link href="/mkashi/photography"><a>/ PHOTOGRAPHY</a></Link></li>
                 </ul>
             </header>
             <section className={layout.main}>
