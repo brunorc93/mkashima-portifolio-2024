@@ -31,7 +31,6 @@ export default function Layout({children}) {
                     <li className={layout.navmobitem}><Link href="/fotografia"><a>/ FOTOGRAFIA</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/webDev"><a>/ WEB DEV</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/info"><a>/ INFO</a></Link></li>
-                    <li className={layout.navmobitem}><Link href="/contato"><a>/ CONTATO</a></Link></li>
                 </ul>
             </header>
             <section className={layout.main}>
