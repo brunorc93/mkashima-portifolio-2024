@@ -20,9 +20,6 @@ function Home() {
             <p className={index.text}>Aqui você encontra alguns dos meus projetos favoritos</p><br></br>
           </h2>
           <ul className={index.list}>
-            <li className={index.item}>
-              <a className={index.links} href="https://www.mkashima.com/webDev">WEBDEV <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a>
-            </li>
             <br></br>
             <li className={index.item}>
               <a className={index.links} href="https://www.mkashima.com/fotografia">FOTOGRAFIA <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a>

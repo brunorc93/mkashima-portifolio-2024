@@ -29,7 +29,6 @@ export default function Layout({children}) {
                 onClick={openMenu}>
                     <li className={layout.navmobitem}><Link href="/"><a>/ HOME</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/fotografia"><a>/ FOTOGRAFIA</a></Link></li>
-                    <li className={layout.navmobitem}><Link href="/webDev"><a>/ WEB DEV</a></Link></li>
                 </ul>
             </header>
             <section className={layout.main}>
