@@ -7,20 +7,12 @@ export default function Footer() {
                 <div className={footer.row}>
                     <div className={footer.column}>
                         <ul className={footer.footerlist}>
-                            <li className={footer.footeritem}>MAISA KASHIMA</li>
-                            <li className={footer.footeritem}><img src="/circle-green.svg" alt= "avaible" width="4px"/> DISPONÍVEL PARA NOVOS TRABALHOS</li>
+                            <li className={footer.footeritem}>M. KASHI</li>
                         </ul>
                     </div>
                     <div className={footer.column}>
                         <ul className={footer.footerlist}>  
-                            <li className={footer.footeritem}><a target="_blank" href="https://www.instagram.com/mkashima" rel="noopener noreferrer">/ INSTAGRAM</a></li>
-                            <li className={footer.footeritem}><a target="_blank" href="https://github.com/mkashima-studio" rel="noopener noreferrer">/ GITHUB</a></li>
-                            <li className={footer.footeritem}><a target="_blank" href="" rel="noopener noreferrer">/ BLOG</a></li>
-                        </ul>
-                    </div>
-                    <div className={footer.column}>
-                        <ul className={footer.footerlist}>
-                            <li className={footer.footeritem}><a href="mailto:studio@mkashima.com">STUDIO@MKASHIMA.COM</a></li>
+                            <li className={footer.footeritem}>discord: mkashima #2118</li>
                         </ul>
                     </div>
                 </div>
