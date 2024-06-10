@@ -19,20 +19,21 @@ export default function Layout({children}) {
             </Head>
             <header>
                 <Navbar className={isOpen === false ? layout.nav : layout.nav + ' ' + layout.active} />
-                <button className={isOpen === false ? layout.mobile + ' ' + layout.hamburger : layout.mobile + ' ' + layout.hamburger +' '+layout.active}
-                onClick={openMenu}>
+
+                {/* the contents below apply only on mobile */}
+                <button className={isOpen === false ? layout.mobile + ' ' + layout.hamburger : layout.mobile + ' ' + layout.hamburger +' '+layout.active} onClick={openMenu}>
                     <span className={layout.bar}></span>
                     <span className={layout.bar}></span>
                     <span className={layout.bar}></span>
                 </button>
-                <ul className={isOpen === false ? layout.mobile + ' ' + layout.navmob : layout.mobile + ' ' + layout.navmob +' ' + layout.active} 
-                onClick={openMenu}>
+                <ul className={isOpen === false ? layout.mobile + ' ' + layout.navmob : layout.mobile + ' ' + layout.navmob +' ' + layout.active} onClick={openMenu}>
                     <li className={layout.navmobitem}><Link href="/mkashi"><a>/ HOME</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/mkashi/pixelart"><a>/ PIXELART</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/mkashi/gamedesign"><a>/ GAMEDESIGN</a></Link></li>
                     <br/>
                     <li className={layout.navmobitem}><Link href="/mkashi/photography"><a>/ PHOTOGRAPHY</a></Link></li>
                 </ul>
+                {/* the contents above apply only on mobile */}
             </header>
             <section className={layout.main}>
                 {children}

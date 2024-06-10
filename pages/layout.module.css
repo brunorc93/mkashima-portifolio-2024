@@ -83,7 +83,9 @@
     background: white;
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 10px 20px 0px;
+    box-shadow: 5px  5px;
+    position:absolute;
   }
 
   .navmobitem {
