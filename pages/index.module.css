@@ -1,0 +1,116 @@
+.text {
+    float: right;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
+.redtext {
+    float: right;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+    color: red;
+}
+
+.column {
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    margin-top: 60px;
+}
+
+
+
+@media only screen and (min-width: 1300px) {
+
+    .column {
+        float: left;
+        width: 45%;
+        padding: 10px;
+        margin-top: 40px;
+        align-content: center;
+    }
+    .photo {
+        box-shadow: -10px  -10px;
+        max-height: 500%;
+        position: relative;
+    }
+
+    .links {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 50%;
+        text-transform: uppercase;
+        text-align: right;
+        float: right;
+    }
+    .item {
+        float: right;
+    }
+
+    .jp{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .jpdesk {
+        display: none;
+    }
+}
+
+.jpdesk {
+    position: absolute;
+    top: 59vh;
+    left: 46vw;
+    height: 35vh;
+
+}
+
+.jp {
+    position: absolute;
+    top: 14vh;
+    left: 55vw;
+    height: 30vw;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.photo {
+    box-shadow: -10px  -10px;
+    max-height: 40vw;
+    float: left;
+}
+
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+    float: right;
+}
+
+.links {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+    float: right;
+}

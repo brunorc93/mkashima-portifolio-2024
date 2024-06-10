@@ -1,0 +1,44 @@
+.content {
+    border-style: solid;
+    box-shadow: -10px  -10px;
+    background-color: white;
+}
+
+.column {
+    float: left;
+    width: 85vw;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    .content {
+      margin-left: 250px;
+      width: 82vw;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        padding: 10px;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footerlist {
+    float: left;
+    display: inline;
+    list-style-type: none;
+}
+
+.footeritem {
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
