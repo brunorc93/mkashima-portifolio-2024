@@ -8,7 +8,7 @@ function Home() {
     <h6>/ home / home / hello mellow</h6>
       <div className={index.row}>
         <div className={index.column}>
-            <img className={index.photo} src="/photos/home/mkself1.jpg" alt= "self portrait" />
+            <img className={index.photo} src="/photos/home/mk-poppy.png" alt= "poppy flower" />
             <img className={index.jp} src="/jp-text-red.svg" alt= "japanese presentation" />
             <img className={index.jpdesk} src="/jp-text-red.svg" alt= "japanese presentation" />
         </div>
