@@ -78,6 +78,7 @@
     display: none;
   }
 
+
   .navmob.active {
     display: block;
     background: white;
@@ -99,6 +100,10 @@
     display: block;
     color: black;
     padding: 8px 8px 0px 45px;
+  }
+
+  .hidenavmobitem {
+    display: none;
   }
 }
 
