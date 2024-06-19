@@ -1,9 +1,8 @@
-import community from './../community.module.css'
+import feedback from './feedback.module.css'
 import Layout from '../../../layout'
 
 // Images
 
-export const feedback1 = '/img/community/feedback/Captura de tela 2022-10-11 180624.jpg'
 export const feedback2 = '/img/community/feedback/Captura de tela 2022-10-12 232301.jpg'
 export const feedback3 = '/img/community/feedback/Captura de tela 2022-10-15 120703.jpg'
 export const feedback4 = '/img/community/feedback/Captura de tela 2022-11-10 203507.jpg'
@@ -33,9 +32,8 @@ function CommunityFeedback() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / feedback / 🗣</h6>
             <h1>FEEDBACK</h1>
-            <div className={community.row}>
-                <div className={community.column}>
-                    <img src={feedback1} width="100%" alt="community feedback image 1" />
+            <div className={feedback.row}>
+                <div className={feedback.column}>
                     <img src={feedback2} width="100%" alt="community feedback image 2" />
                     <img src={feedback3} width="100%" alt="community feedback image 3" />
                     <img src={feedback4} width="100%" alt="community feedback image 4" />
@@ -44,7 +42,7 @@ function CommunityFeedback() {
                     <img src={feedback7} width="100%" alt="community feedback image 7" />
                     <img src={feedback8} width="100%" alt="community feedback image 8" />
                 </div>
-                <div className={community.column}>
+                <div className={feedback.column}>
                     <img src={feedback9} width="100%" alt="community feedback image 9" />
                     <img src={feedback10} width="100%" alt="community feedback image 10" />
                     <img src={feedback11} width="100%" alt="community feedback image 11" />
@@ -54,7 +52,7 @@ function CommunityFeedback() {
                     <img src={feedback15} width="100%" alt="community feedback image 15" />
                     <img src={feedback16} width="100%" alt="community feedback image 16" />
                 </div>
-                <div className={community.column}>
+                <div className={feedback.column}>
                     <img src={feedback17} width="100%" alt="community feedback image 17" />
                     <img src={feedback18} width="100%" alt="community feedback image 18" />
                     <img src={feedback19} width="100%" alt="community feedback image 19" />
