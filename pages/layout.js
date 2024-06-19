@@ -26,12 +26,12 @@ export default function Layout({children}) {
                 <Navbar className={isOpen === false ? layout.nav : layout.nav + ' ' + layout.active} />
 
                 {/* the contents below apply only on mobile */}
-                <button className={isOpen === false ? layout.mobile + ' ' + layout.hamburger : layout.mobile + ' ' + layout.hamburger +' '+layout.active} onClick={openMenu}>
+                <button className={isOpen === false ? layout.mobile + ' ' + layout.hamburger : layout.mobile + ' ' + layout.hamburger + ' ' + layout.active} onClick={openMenu}>
                     <span className={layout.bar}></span>
                     <span className={layout.bar}></span>
                     <span className={layout.bar}></span>
                 </button>
-                <ul className={isOpen === false ? layout.mobile + ' ' + layout.navmob : layout.mobile + ' ' + layout.navmob +' ' + layout.active} onClick={openMenu}>
+                <ul className={isOpen === false ? layout.mobile + ' ' + layout.navmob : layout.mobile + ' ' + layout.navmob + ' ' + layout.active} onClick={openMenu}>
                     <li className={layout.navmobitem}><Link href="/mkashi"><a>/ HOME</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/mkashi/pixelart"><a>/ PIXELART</a></Link></li>
                     <li className={isInPixelArt === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/pixelart/items"><a>. / ITEMS</a></Link></li>
