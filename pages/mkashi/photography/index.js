@@ -1,5 +1,5 @@
-import fotografia from './photography.module.css'
-import Layout from '../layout'
+import fotografia from './index.module.css'
+import Layout from '../../layout'
 
 // Images
 
