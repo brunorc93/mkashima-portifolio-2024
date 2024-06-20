@@ -28,8 +28,8 @@ function Outfits() {
             <h1>OUTFITS</h1>
             <div className={outfits.row}>
                 <div className={outfits.column}>
-                    <img src={outfits_map1} width="100%" alt="pixelart outfits map image 1" />
-                    <img src={outfits_map2} width="100%" alt="pixelart outfits map image 2" />
+                    <img className={outfits.photo} src={outfits_map1} width="100%" alt="pixelart outfits map image 1" />
+                    <img className={outfits.photo} src={outfits_map2} width="100%" alt="pixelart outfits map image 2" />
                 </div>
                 <div className={outfits.column}>
                     <img src={outfits1} width="14%" alt="pixelart outfits image 1" />
