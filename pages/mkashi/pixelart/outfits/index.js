@@ -29,9 +29,6 @@ function Outfits() {
             <div className={outfits.row}>
                 <div className={outfits.column}>
                     <img className={outfits.photo} src={outfits_map1} width="100%" alt="pixelart outfits map image 1" />
-                    <img className={outfits.photo} src={outfits_map2} width="100%" alt="pixelart outfits map image 2" />
-                </div>
-                <div className={outfits.column}>
                     <img src={outfits1} width="14%" alt="pixelart outfits image 1" />
                     <img src={outfits2} width="14%" alt="pixelart outfits image 2" />
                     <img src={outfits3} width="14%" alt="pixelart outfits image 3" />
@@ -39,6 +36,9 @@ function Outfits() {
                     <img src={outfits5} width="14%" alt="pixelart outfits image 5" />
                     <img src={outfits6} width="14%" alt="pixelart outfits image 6" />
                     <img src={outfits7} width="14%" alt="pixelart outfits image 7" />
+                </div>
+                <div className={outfits.column}>
+                <img className={outfits.photo} src={outfits_map2} width="100%" alt="pixelart outfits map image 2" />
                     <img src={outfits8} width="14%" alt="pixelart outfits image 8" />
                     <img src={outfits9} width="14%" alt="pixelart outfits image 9" />
                     <img src={outfits10} width="14%" alt="pixelart outfits image 10" />
