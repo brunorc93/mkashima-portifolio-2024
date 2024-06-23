@@ -8,11 +8,22 @@ module.exports = {
   assetPrefix: !debug ? '' : '',
   exportPathMap: function() {
     return {
-      '/': { page: '/' },
-      '/info': { page: '/info' },
-      '/fotografia': { page: '/fotografia' },
-      '/contato': { page: '/contato' },
-      '/webDev': { page: '/webDev' },
+      '/': { page: '/mkashi' },
+      '/mkashi': { page: '/mkashi' },
+      '/mkashi/community': { page: '/mkashi/community' },
+      '/mkashi/community/events': { page: '/mkashi/community/events' },
+      '/mkashi/community/feedback': { page: '/mkashi/community/feedback' },
+      '/mkashi/gamedesign': { page: '/mkashi/gamedesign' },
+      '/mkashi/gamedesign/events': { page: '/mkashi/gamedesign/events' },
+      '/mkashi/gamedesign/quests': { page: '/mkashi/gamedesign/quests' },
+      '/mkashi/photography': { page: '/mkashi/photography' },
+      '/mkashi/pixelart': { page: '/mkashi/pixelart' },
+      '/mkashi/pixelart/backpacks': { page: '/mkashi/pixelart/backpacks' },
+      '/mkashi/pixelart/items': { page: '/mkashi/pixelart/items' },
+      '/mkashi/pixelart/maps': { page: '/mkashi/pixelart/maps' },
+      '/mkashi/pixelart/maps/cities': { page: '/mkashi/pixelart/maps/cities' },
+      '/mkashi/pixelart/maps/hunts': { page: '/mkashi/pixelart/maps/hunts' },
+      '/mkashi/pixelart/outfits': { page: '/mkashi/pixelart/outfits' },
     }
   },
 }
