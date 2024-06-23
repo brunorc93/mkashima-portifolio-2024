@@ -47,12 +47,10 @@ function Cities() {
                     <img className={index.photo_page} src={cities7} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities8} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities9} width="100%" alt="pixelart city map image" />
-                    <img className={index.photo_page} src={cities10} width="100%" alt="pixelart city map image" />
                 </div>
                 <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={cities13} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities14} width="100%" alt="pixelart city map image" />
-                    <img className={index.photo_page} src={cities15} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities16} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities17} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities18} width="100%" alt="pixelart city map image" />
@@ -60,6 +58,7 @@ function Cities() {
                     <img className={index.photo_page} src={cities20} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities21} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities22} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities10} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities11} width="100%" alt="pixelart city map image" />
                 </div>
             </div>
