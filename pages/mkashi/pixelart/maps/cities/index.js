@@ -1,4 +1,5 @@
 import maps from './../maps.module.css'
+import index from './../../../index.module.css'
 import Layout from '../../../../layout'
 
 // Images
@@ -34,30 +35,30 @@ function Cities() {
             <h1>CITIES</h1>
             <div className={maps.row}>
                 <div className={maps.column}>
-                    <img className={maps.photo} src={cities1} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities2} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities3} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities4} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities5} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities6} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities7} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities8} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities9} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities10} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities11} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities1} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities2} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities3} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities4} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities5} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities6} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities7} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities8} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities9} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities10} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities11} width="100%" alt="pixelart city map image" />
                 </div>
                 <div className={maps.column}>
-                    <img className={maps.photo} src={cities12} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities13} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities14} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities15} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities16} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities17} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities18} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities19} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities20} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities21} width="100%" alt="pixelart city map image" />
-                    <img className={maps.photo} src={cities22} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities12} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities13} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities14} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities15} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities16} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities17} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities18} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities19} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities20} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities21} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities22} width="100%" alt="pixelart city map image" />
                 </div>
             </div>
         </section>

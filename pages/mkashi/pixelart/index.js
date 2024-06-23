@@ -2,7 +2,7 @@ import outfits from './outfits/outfits.module.css'
 import items from './items/items.module.css'
 import backpacks from './backpacks/backpacks.module.css'
 import maps from './maps/maps.module.css'
-import index from './index.module.css'
+import index from './../index.module.css'
 import Layout from '../../layout'
 
 // Images
@@ -22,7 +22,7 @@ function Pixelart() {
         <section>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixel / art / ▪ </h6>
-            <h1><a className={index.links} href="/mkashi/pixelart/items">ITEMS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/items">ITEMS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={items.row}>
                 <div className={items.column}>
                     <img src={items1} width="10%" alt="pixelart item image" />
@@ -61,7 +61,7 @@ function Pixelart() {
                     <img src={items30} width="10%" alt="pixelart item image" />
                 </div>
             </div>
-            <h1><a className={index.links} href="/mkashi/pixelart/outfits">OUTFITS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/outfits">OUTFITS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={outfits.row}>
                 <div className={outfits.column}>
                     <img src={outfits1} width="14%" alt="pixelart outfits image 1" />
@@ -82,7 +82,7 @@ function Pixelart() {
                     <img src={outfits14} width="14%" alt="pixelart outfits image 14" />
                 </div>
             </div>
-            <h1><a className={index.links} href="/mkashi/pixelart/backpacks">BACKPACKS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/backpacks">BACKPACKS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={backpacks.row}>
                 <div className={backpacks.column}>
                 <img src={backpacks1} width="9%" alt="pixelart backpack image 1" />
@@ -122,13 +122,13 @@ function Pixelart() {
                 <img src={backpacks31} width="10%" alt="pixelart backpack image 31" />
                 </div>
             </div>
-            <h1><a className={index.links} href="/mkashi/pixelart/maps">MAPS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/maps">MAPS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={maps.row}>
                 <div className={maps.column}>
-                    <img className={maps.photo} src={cities1} width="100%" alt="pixelart cities map image" />
+                    <img className={index.photo_page} src={cities1} width="100%" alt="pixelart cities map image" />
                 </div>
                 <div className={maps.column}>
-                    <img className={maps.photo} src={hunts1} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts1} width="100%" alt="pixelart hunt map image" />
                 </div>
             </div>
         </section>

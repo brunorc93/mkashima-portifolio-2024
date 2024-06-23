@@ -1,4 +1,5 @@
 import maps from './../maps.module.css'
+import index from './../../../index.module.css'
 import Layout from '../../../../layout'
 
 // Images
@@ -24,20 +25,20 @@ function Hunts() {
             <h1>HUNTS</h1>
             <div className={maps.row}>
                 <div className={maps.column}>
-                    <img className={maps.photo} src={hunts1} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts2} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts3} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts4} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts5} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts6} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts1} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts2} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts3} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts4} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts5} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts6} width="100%" alt="pixelart hunt map image" />
                 </div>
                 <div className={maps.column}>
-                    <img className={maps.photo} src={hunts7} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts8} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts9} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts10} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts11} width="100%" alt="pixelart hunt map image" />
-                    <img className={maps.photo} src={hunts12} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts7} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts8} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts9} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts10} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts11} width="100%" alt="pixelart hunt map image" />
+                    <img className={index.photo_page} src={hunts12} width="100%" alt="pixelart hunt map image" />
                 </div>
             </div>
         </section>

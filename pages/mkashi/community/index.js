@@ -1,6 +1,6 @@
 import feedback from './feedback/feedback.module.css'
 import events from './events/events.module.css'
-import index from './index.module.css'
+import index from './../index.module.css'
 import Layout from '../../layout'
 
 // Images
@@ -14,16 +14,16 @@ function Community() {
         <section>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / people / ꆜꆜꆜꆜ</h6>
-            <h1><a className={index.links} href="/mkashi/community/events">EVENTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/events">EVENTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={events.row}>
                 <div className={events.column}>
-                    <img className={events.photo} src={events1} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events1} width="100%" alt="community events image" />
                 </div>
                 <div className={events.column}>
-                    <img className={events.photo} src={events2} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events2} width="100%" alt="community events image" />
                 </div>
             </div>
-            <h1><a className={index.links} href="/mkashi/community/feedback">FEEDBACK <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/feedback">FEEDBACK <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={feedback.row}>
                 <div className={feedback.column}>
                     <img src={feedback4} width="100%" alt="community feedback image" />

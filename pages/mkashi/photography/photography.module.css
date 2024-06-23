@@ -4,11 +4,6 @@
     padding: 20px;
 }
 
-.photo {
-    box-shadow: -10px  -10px;
-    margin: 10px 0px;
-}
-
 .row:after {
     content: "";
     display: table;

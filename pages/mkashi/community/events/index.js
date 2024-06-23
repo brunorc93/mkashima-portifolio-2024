@@ -1,4 +1,5 @@
 import events from './events.module.css'
+import index from './../../index.module.css'
 import Layout from '../../../layout'
 
 // Images
@@ -53,49 +54,49 @@ function CommunityEvent() {
             <h1>EVENTS</h1>
             <div className={events.row}>
                 <div className={events.column}>
-                    <img className={events.photo} src={events1} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events2} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events3} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events4} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events5} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events6} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events7} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events8} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events9} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events10} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events11} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events12} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events13} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events14} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events15} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events16} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events17} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events18} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events19} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events20} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events21} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events1} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events2} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events3} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events4} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events5} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events6} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events7} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events8} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events9} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events10} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events11} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events12} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events13} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events14} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events15} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events16} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events17} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events18} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events19} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events20} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events21} width="100%" alt="community events image" />
                 </div>
                 <div className={events.column}>
-                    <img className={events.photo} src={events22} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events23} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events24} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events25} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events26} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events27} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events28} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events29} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events30} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events31} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events32} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events33} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events34} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events35} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events36} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events37} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events38} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events39} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events40} width="100%" alt="community events image" />
-                    <img className={events.photo} src={events41} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events22} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events23} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events24} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events25} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events26} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events27} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events28} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events29} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events30} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events31} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events32} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events33} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events34} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events35} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events36} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events37} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events38} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events39} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events40} width="100%" alt="community events image" />
+                    <img className={index.photo_page} src={events41} width="100%" alt="community events image" />
                 </div>
             </div>
         </section>

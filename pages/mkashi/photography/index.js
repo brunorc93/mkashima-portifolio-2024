@@ -1,4 +1,5 @@
 import photography from './photography.module.css'
+import index from './../index.module.css'
 import Layout from '../../layout'
 
 // Images
@@ -80,69 +81,69 @@ function Fotografia() {
             <h1>PHOTOS</h1>
             <div className={photography.row}>
                 <div className={photography.column}>
-                    <img className={photography.photo} src={food1} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food4} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind2} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food7} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind5} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food10} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food13} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food16} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food19} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind8} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food22} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food25} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind11} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food28} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food31} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind14} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food34} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food37} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind16} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food39} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind1} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food1} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food4} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind2} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food7} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind5} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food10} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food13} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food16} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food19} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind8} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food22} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food25} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind11} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food28} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food31} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind14} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food34} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food37} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind16} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food39} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind1} width="100%" alt="photography image" />
                 </div>
                 <div className={photography.column}>
-                    <img className={photography.photo} src={food2} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food5} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food8} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food11} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind3} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food14} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food17} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind6} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food20} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food23} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={port1} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind9} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food26} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food29} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind12} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food32} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food35} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind15} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food38} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind17} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food2} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food5} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food8} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food11} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind3} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food14} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food17} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind6} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food20} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food23} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={port1} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind9} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food26} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food29} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind12} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food32} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food35} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind15} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food38} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind17} width="100%" alt="photography image" />
                 </div>
                 <div className={photography.column}>
-                    <img className={photography.photo} src={food3} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={port2} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food6} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food9} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind4} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food12} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food15} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind7} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food18} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food21} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind10} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food24} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food27} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind13} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food30} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food33} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={food36} width="100%" alt="photography image" />
-                    <img className={photography.photo} src={ind18} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food3} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={port2} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food6} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food9} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind4} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food12} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food15} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind7} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food18} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food21} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind10} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food24} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food27} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind13} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food30} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food33} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={food36} width="100%" alt="photography image" />
+                    <img className={index.photo_page} src={ind18} width="100%" alt="photography image" />
                 </div>
             </div>   
         </section>
