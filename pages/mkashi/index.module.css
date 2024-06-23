@@ -57,33 +57,26 @@
         float: right;
     }
 
-    .jp{
-        display: none;
-    }
 
+    .jp {
+        position: absolute;
+        top: 51vh;
+        left: 41vw;
+        height: 35vh;
+    
+    }
 }
 
 @media only screen and (max-width: 1300px) {
-    .jpdesk {
-        display: none;
+    .jp {
+        position: absolute;
+        top: 14vh;
+        left: 55vw;
+        height: 30vw;
+    
     }
 }
 
-.jpdesk {
-    position: absolute;
-    top: 51vh;
-    left: 41vw;
-    height: 35vh;
-
-}
-
-.jp {
-    position: absolute;
-    top: 14vh;
-    left: 55vw;
-    height: 30vw;
-
-}
 
 .row:after {
     content: "";

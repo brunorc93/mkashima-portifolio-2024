@@ -10,7 +10,6 @@ function Home() {
         <div className={index.column}>
             <img className={index.photo} src="/img/home/mk-poppy.png" alt= "poppy flower" />
             <img className={index.jp} src="/jp-text-red.svg" alt= "japanese presentation" />
-            <img className={index.jpdesk} src="/jp-text-red.svg" alt= "japanese presentation" />
         </div>
         <div className={index.column}>
             <img src="/hello.svg" alt= "hello" width="83%" />
