@@ -36,6 +36,8 @@ function Cities() {
             <h1 className={index.h1}>CITIES</h1>
             <div className={index.row}>
                 <div className={index.column_page_base + ' ' + index.column_page_2}>
+                    <img className={index.photo_page} src={cities23} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities24} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities1} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities2} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities3} width="100%" alt="pixelart city map image" />
@@ -46,8 +48,6 @@ function Cities() {
                     <img className={index.photo_page} src={cities8} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities9} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities10} width="100%" alt="pixelart city map image" />
-                    <img className={index.photo_page} src={cities11} width="100%" alt="pixelart city map image" />
-                    <img className={index.photo_page} src={cities12} width="100%" alt="pixelart city map image" />
                 </div>
                 <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={cities13} width="100%" alt="pixelart city map image" />
@@ -60,8 +60,7 @@ function Cities() {
                     <img className={index.photo_page} src={cities20} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities21} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities22} width="100%" alt="pixelart city map image" />
-                    <img className={index.photo_page} src={cities23} width="100%" alt="pixelart city map image" />
-                    <img className={index.photo_page} src={cities24} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities11} width="100%" alt="pixelart city map image" />
                 </div>
             </div>
         </section>
