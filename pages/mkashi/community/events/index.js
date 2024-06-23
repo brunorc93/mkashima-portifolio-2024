@@ -52,7 +52,7 @@ function CommunityEvent() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / events / ꆜ ꆜꆜꆜ ꆜꆜ ꆜꆜ ꆜꆜꆜꆜꆜ ꆜ ꆜꆜ</h6>
             <h1>EVENTS</h1>
-            <div className={events.row}>
+            <div className={index.row}>
                 <div className={events.column}>
                     <img className={index.photo_page} src={events1} width="100%" alt="community events image" />
                     <img className={index.photo_page} src={events2} width="100%" alt="community events image" />

@@ -15,7 +15,7 @@ function Community() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / people / ꆜꆜꆜꆜ</h6>
             <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/events">EVENTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
-            <div className={events.row}>
+            <div className={index.row}>
                 <div className={events.column}>
                     <img className={index.photo_page} src={events1} width="100%" alt="community events image" />
                 </div>

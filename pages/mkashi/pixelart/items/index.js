@@ -68,7 +68,7 @@ function Items() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / items / ✌</h6>
             <h1>ITEMS</h1>
-            <div className={items.row}>
+            <div className={index.row}>
                 <div className={items.column}>
                     <img src={items1} width="10%" alt="pixelart item image" />
                     <img src={items2} width="10%" alt="pixelart item image" />

@@ -27,7 +27,7 @@ function Outfits() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / outfits / how do I look?</h6>
             <h1>OUTFITS</h1>
-            <div className={outfits.row}>
+            <div className={index.row}>
                 <div className={outfits.column}>
                     <img className={index.photo_page} src={outfits_map1} width="100%" alt="pixelart outfits map image 1" />
                     <img src={outfits1} width="14%" alt="pixelart outfits image 1" />

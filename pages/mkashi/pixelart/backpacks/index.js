@@ -41,7 +41,7 @@ function Backpacks() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / backpacks / packing...</h6>
             <h1>BACKPACKS</h1>
-            <div className={backpacks.row}>
+            <div className={index.row}>
                 <div className={backpacks.column}>
                 <img src={backpacks1} width="9%" alt="pixelart backpack image 1" />
                 <img src={backpacks2} width="9%" alt="pixelart backpack image 2" />

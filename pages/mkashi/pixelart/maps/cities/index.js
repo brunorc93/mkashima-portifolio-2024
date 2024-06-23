@@ -33,7 +33,7 @@ function Cities() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / maps / cities</h6>
             <h1>CITIES</h1>
-            <div className={maps.row}>
+            <div className={index.row}>
                 <div className={maps.column}>
                     <img className={index.photo_page} src={cities1} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities2} width="100%" alt="pixelart city map image" />

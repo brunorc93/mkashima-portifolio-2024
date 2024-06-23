@@ -23,7 +23,7 @@ function Hunts() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / maps / hunts</h6>
             <h1>HUNTS</h1>
-            <div className={maps.row}>
+            <div className={index.row}>
                 <div className={maps.column}>
                     <img className={index.photo_page} src={hunts1} width="100%" alt="pixelart hunt map image" />
                     <img className={index.photo_page} src={hunts2} width="100%" alt="pixelart hunt map image" />

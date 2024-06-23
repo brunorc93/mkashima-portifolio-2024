@@ -79,7 +79,7 @@ function Fotografia() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ photo / photo / say cheese</h6>
             <h1>PHOTOS</h1>
-            <div className={photography.row}>
+            <div className={index.row}>
                 <div className={photography.column}>
                     <img className={index.photo_page} src={food1} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={food4} width="100%" alt="photography image" />

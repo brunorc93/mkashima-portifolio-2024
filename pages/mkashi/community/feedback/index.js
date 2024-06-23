@@ -32,7 +32,7 @@ function CommunityFeedback() {
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / feedback / 🗣</h6>
             <h1>FEEDBACK</h1>
-            <div className={feedback.row}>
+            <div className={index.row}>
                 <div className={feedback.column}>
                     <img src={feedback2} width="100%" alt="community feedback image 2" />
                     <img src={feedback3} width="100%" alt="community feedback image 3" />
