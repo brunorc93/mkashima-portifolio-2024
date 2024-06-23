@@ -13,6 +13,7 @@ export default function Layout({children}) {
     const { pathname } = useRouter();
     const isInPixelArt = pathname.includes("/mkashi/pixelart");
     const isInPixelArtMaps = pathname.includes("/mkashi/pixelart/maps");
+    const isInGamedesign = pathname.includes("/mkashi/gamedesign");
     const isInCommunity = pathname.includes("/mkashi/community");
 
     return (
@@ -41,6 +42,8 @@ export default function Layout({children}) {
                     <li className={isInPixelArtMaps === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/pixelart/maps/cities"><a>. / . / CITIES</a></Link></li>
                     <li className={isInPixelArtMaps === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/pixelart/maps/hunts"><a>. / . / HUNTS</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/mkashi/gamedesign"><a>/ GAMEDESIGN</a></Link></li>
+                    <li className={isInGamedesign === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/gamedesign/quests"><a>. / QUESTS</a></Link></li>
+                    <li className={isInGamedesign === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/gamedesign/events"><a>. / EVENTS</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/mkashi/community"><a>/ COMMUNITY</a></Link></li>
                     <li className={isInCommunity === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/community/events"><a>. / EVENTS</a></Link></li>
                     <li className={isInCommunity === true ? layout.navmobitem : layout.hidenavmobitem}><Link href="/mkashi/community/feedback"><a>. / FEEDBACK</a></Link></li>

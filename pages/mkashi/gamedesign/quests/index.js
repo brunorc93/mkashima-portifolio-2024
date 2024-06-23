@@ -30,6 +30,15 @@ export const quests24 = '/img/gamedesign/quests/Whispers of the Wild-3.png'
 export const quests25 = '/img/gamedesign/quests/Whispers of the Wild-4.png'
 export const quests26 = '/img/gamedesign/quests/Whispers of the Wild-5.png'
 export const quests27 = '/img/gamedesign/quests/Whispers of the Wild-6.png'
+export const quests28 = '/img/gamedesign/quests/Day de Los Muertos.png'
+export const quests29 = '/img/gamedesign/quests/Legend of Aztec-1.png'
+export const quests30 = '/img/gamedesign/quests/Legend of Aztec-2.png'
+export const quests31 = '/img/gamedesign/quests/Quest71-1.png'
+export const quests32 = '/img/gamedesign/quests/Quest71-3.png'
+export const quests33 = '/img/gamedesign/quests/Quest71-4.png'
+export const quests34 = '/img/gamedesign/quests/Quest71-5.png'
+export const quests35 = '/img/gamedesign/quests/Quest71-6.png'
+
 
 function GamedesignQuests() {
     return (
@@ -52,9 +61,14 @@ function GamedesignQuests() {
                     <img className={index.photo_page} src={quests11} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests12} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests13} width="100%" alt="gamedesign quests image" />
-                    <img className={index.photo_page} src={quests14} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests27} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests28} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests29} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests30} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests31} width="100%" alt="gamedesign quests image" />
                 </div>
                 <div className={index.column_page_base + ' ' + index.column_page_2}>
+                    <img className={index.photo_page} src={quests14} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests15} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests16} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests17} width="100%" alt="gamedesign quests image" />
@@ -67,7 +81,10 @@ function GamedesignQuests() {
                     <img className={index.photo_page} src={quests24} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests25} width="100%" alt="gamedesign quests image" />
                     <img className={index.photo_page} src={quests26} width="100%" alt="gamedesign quests image" />
-                    <img className={index.photo_page} src={quests27} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests32} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests33} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests34} width="100%" alt="gamedesign quests image" />
+                    <img className={index.photo_page} src={quests35} width="100%" alt="gamedesign quests image" />
                 </div>
             </div>
         </section>
