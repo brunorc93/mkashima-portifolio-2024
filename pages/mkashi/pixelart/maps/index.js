@@ -10,10 +10,10 @@ import { hunts1, hunts2, hunts3 } from './hunts/index.js'
 
 function Pixelart() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / maps / where am I? </h6>
-            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/maps/cities">CITIES <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1 className={index.h1}><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/maps/cities">CITIES <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={index.row}>
                 <div className={maps.column}>
                     <img className={index.photo_page} src={cities1} width="100%" alt="pixelart city map image" />
@@ -22,7 +22,7 @@ function Pixelart() {
                     <img className={index.photo_page} src={cities8} width="100%" alt="pixelart city map image" />
                 </div>
             </div>
-            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/maps/hunts">HUNTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1 className={index.h1}><a className={index.links_page + ' ' + index.links_base} href="/mkashi/pixelart/maps/hunts">HUNTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={index.row}>
                 <div className={maps.column}>
                     <img className={index.photo_page} src={hunts1} width="100%" alt="pixelart hunts map image" />

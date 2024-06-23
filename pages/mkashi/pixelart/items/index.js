@@ -1,4 +1,5 @@
 import items from './items.module.css'
+import index from './../../index.module.css'
 import Layout from '../../../layout'
 
 // Images
@@ -64,10 +65,10 @@ export const items58 = '/img/pixelart/items/flag-vz-front.png'
 
 function Items() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / items / ✌</h6>
-            <h1>ITEMS</h1>
+            <h1 className={index.h1}>ITEMS</h1>
             <div className={index.row}>
                 <div className={items.column}>
                     <img src={items1} width="10%" alt="pixelart item image" />

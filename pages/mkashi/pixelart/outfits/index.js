@@ -23,10 +23,10 @@ export const outfits_map2 = '/img/pixelart/outfits/beach.png'
 
 function Outfits() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / outfits / how do I look?</h6>
-            <h1>OUTFITS</h1>
+            <h1 className={index.h1}>OUTFITS</h1>
             <div className={index.row}>
                 <div className={outfits.column}>
                     <img className={index.photo_page} src={outfits_map1} width="100%" alt="pixelart outfits map image 1" />

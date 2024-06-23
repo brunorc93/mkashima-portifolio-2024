@@ -48,10 +48,10 @@ export const events41 = '/img/community/events/Captura de tela 2024-05-29 003743
 
 function CommunityEvent() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / events / ꆜ ꆜꆜꆜ ꆜꆜ ꆜꆜ ꆜꆜꆜꆜꆜ ꆜ ꆜꆜ</h6>
-            <h1>EVENTS</h1>
+            <h1 className={index.h1}>EVENTS</h1>
             <div className={index.row}>
                 <div className={events.column}>
                     <img className={index.photo_page} src={events1} width="100%" alt="community events image" />

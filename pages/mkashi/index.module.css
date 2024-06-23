@@ -73,8 +73,17 @@
 }
 
 .links_page {
+    display: inline-block;
     font-size: 1.5em;
     font-weight: 100;
+}
+
+.h1 {
+    margin: 0px;
+}
+
+.section {
+    margin: 20px 20px 0px 0px;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -99,5 +108,9 @@
         top: 14vh;
         left: 55vw;
         height: 30vw;
+    }
+
+    .section {
+        margin: 0px 0px 0px 0px;
     }
 }

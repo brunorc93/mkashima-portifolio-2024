@@ -3,7 +3,7 @@ import index from './index.module.css'
 import Layout from '../layout'
 
 function Home() {
-  return ( <section>
+  return ( <section className={index.section}>
     <h5>mkashi portfolio • 2024</h5>
     <h6>/ home / home / hello mellow</h6>
       <div className={index.row}>

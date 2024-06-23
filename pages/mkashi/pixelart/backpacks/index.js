@@ -1,4 +1,5 @@
 import backpacks from './backpacks.module.css'
+import index from './../../index.module.css'
 import Layout from '../../../layout'
 
 // Images
@@ -37,10 +38,10 @@ export const backpacks31 = '/img/pixelart/backpacks/xmas23-red-backpack.gif'
 
 function Backpacks() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / backpacks / packing...</h6>
-            <h1>BACKPACKS</h1>
+            <h1 className={index.h1}>BACKPACKS</h1>
             <div className={index.row}>
                 <div className={backpacks.column}>
                 <img src={backpacks1} width="9%" alt="pixelart backpack image 1" />

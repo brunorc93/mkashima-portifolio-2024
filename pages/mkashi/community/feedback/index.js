@@ -1,4 +1,5 @@
 import feedback from './feedback.module.css'
+import index from './../../index.module.css'
 import Layout from '../../../layout'
 
 // Images
@@ -28,10 +29,10 @@ export const feedback23 = '/img/community/feedback/Capture23.PNG'
 
 function CommunityFeedback() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / feedback / 🗣</h6>
-            <h1>FEEDBACK</h1>
+            <h1 className={index.h1}>FEEDBACK</h1>
             <div className={index.row}>
                 <div className={feedback.column}>
                     <img src={feedback2} width="100%" alt="community feedback image 2" />

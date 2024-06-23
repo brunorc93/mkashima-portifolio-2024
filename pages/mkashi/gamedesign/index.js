@@ -1,22 +1,23 @@
-import pixelart from './gamedesign.module.css'
+import gamedesign from './gamedesign.module.css'
+import index from './../index.module.css'
 import Layout from '../../layout'
 
 // Images
 
 function GameDesign() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ game / design / 🕹</h6>
-            <h1>GAME DESIGN</h1>
-            <div className={pixelart.row}>
-                <div className={pixelart.column}>
+            <h1 className={index.h1}>GAME DESIGN</h1>
+            <div className={index.row}>
+                <div className={gamedesign.column}>
                     <img src="{}" width="100%" alt="gamedesign image" />
                 </div>
-                <div className={pixelart.column}>
+                <div className={gamedesign.column}>
                     <img src="{}" width="100%" alt="gamedesign image" />
                 </div>
-                <div className={pixelart.column}>
+                <div className={gamedesign.column}>
                     <img src="{}" width="100%" alt="gamedesign image" />
                 </div>
             </div>

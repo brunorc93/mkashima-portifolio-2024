@@ -29,10 +29,10 @@ export const cities22 = '/img/pixelart/maps/cities/oakgrove-6.png'
 
 function Cities() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / maps / cities</h6>
-            <h1>CITIES</h1>
+            <h1 className={index.h1}>CITIES</h1>
             <div className={index.row}>
                 <div className={maps.column}>
                     <img className={index.photo_page} src={cities1} width="100%" alt="pixelart city map image" />

@@ -19,10 +19,10 @@ export const hunts12 = '/img/pixelart/maps/hunts/Wild-Thing.png'
 
 function Hunts() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ pixelart / maps / hunts</h6>
-            <h1>HUNTS</h1>
+            <h1 className={index.h1}>HUNTS</h1>
             <div className={index.row}>
                 <div className={maps.column}>
                     <img className={index.photo_page} src={hunts1} width="100%" alt="pixelart hunt map image" />

@@ -11,10 +11,10 @@ import { events1, events2 } from './events/index.js'
 
 function Community() {
     return (
-        <section>
+        <section className={index.section}>
             <h5>mkashi portfolio • 2024</h5>
             <h6>/ community / people / ꆜꆜꆜꆜ</h6>
-            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/events">EVENTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <h1 className={index.h1}><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/events">EVENTS <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
             <div className={index.row}>
                 <div className={events.column}>
                     <img className={index.photo_page} src={events1} width="100%" alt="community events image" />
@@ -23,8 +23,8 @@ function Community() {
                     <img className={index.photo_page} src={events2} width="100%" alt="community events image" />
                 </div>
             </div>
-            <h1><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/feedback">FEEDBACK <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
-            <div className={feedback.row}>
+            <h1 className={index.h1}><a className={index.links_page + ' ' + index.links_base} href="/mkashi/community/feedback">FEEDBACK <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a></h1>
+            <div className={index.row}>
                 <div className={feedback.column}>
                     <img src={feedback4} width="100%" alt="community feedback image" />
                     <img src={feedback3} width="100%" alt="community feedback image" />
