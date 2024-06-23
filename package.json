@@ -7,10 +7,8 @@
     "start": "next start",
     "lint": "next lint",
     "clean": "rd /s /q node_modules",
-    "clean_unix": "rm -rf node_modules",
     "reinstall": "npm run clean && npm install",
-    "reinstall_unix": "npm run clean_unix && npm install",
-    "deploy": "next build && cd out && git add . && git commit -m \"deploying to gh-pages\" && git push -u origin gh-pages"
+    "gh-pages-commands": "git init && git branch -M gh-pages && git add . && git commit -m \"deploying to github pages\" && git remote add origin https://github.com/brunorc93/mkashima-portifolio-2024.git && git push -u origin gh-pages --force"
   },
   "dependencies": {
     "next": "12.0.7",
