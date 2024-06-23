@@ -5,8 +5,8 @@ export default function Footer() {
         <div className={footer.responsive}>
             <div className={footer.content}>
                 <div className={footer.row}>
-                    <div className={footer.column}/>
-                    <div className={footer.column}/>
+                    <div className={footer.column + ' ' + footer.column_hide_mobile}/>
+                    <div className={footer.column + ' ' + footer.column_hide_mobile}/>
                     <div className={footer.column}>
                         <ul className={footer.footerlist}>  
                             <li className={footer.footeritem}>discord: mkashima #2118</li>

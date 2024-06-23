@@ -1,53 +1,52 @@
 @media only screen and (max-width: 900px) {
-  .hidenav {
-    display: none;
-  }
+    .hidenav {
+        display: none;
+    }
 }
 
 .content {
-  display: flex;
-  background-color: white;
-  font-size: 25px;
-  position: fixed;
-  height: 95.5%;
-  margin: 20px 20px;
-  border-style: solid;
-  box-shadow: -10px  -10px;
+    display: flex;
+    background-color: white;
+    font-size: 25px;
+    position: fixed;
+    height: 95.5%;
+    margin: 20px 20px;
+    border-style: solid;
+    box-shadow: -10px  -10px;
 }
 
 .logoimg {
-  display: block;
-  margin: 40px 35px 10px 35px;
+    display: block;
+    margin: 40px 35px 10px 35px;
 }
 
 .logoitem {
-  font-family: "goudosi";
-  color: black;
-  list-style-type: none;
-  text-align: center;
-  font-size: 1.2em;
+    font-family: "goudosi";
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .navbarlist {
-  display: block;
-  background: white;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-
+    display: block;
+    background: white;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbaritem {
-  font-family: 'IBM Plex Mono', sans-serif;
-  font-size: 10px;
-  line-height: 15px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  list-style-type: none;
-  margin: 5px 0px 0px 0px;
-  display: block;
-  color: black;
-  padding: 8px 8px 0px 45px;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 5px 0px 0px 0px;
+    display: block;
+    color: black;
+    padding: 8px 8px 0px 45px;
 }
 
 .hidenavbaritem {
@@ -55,19 +54,19 @@
 }
 
 .navbarsociallist {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  align-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
 }
 
 .navbarsocialitem {
-  font-family: 'IBM Plex Mono', sans-serif;
-  font-size: 10px;
-  line-height: 12px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  display:block;
-  color: black;
-  padding: 10px 0px 0px 45px;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display:block;
+    color: black;
+    padding: 10px 0px 0px 45px;
 }

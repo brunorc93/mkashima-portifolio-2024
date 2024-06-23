@@ -12,8 +12,8 @@
 
 @media only screen and (min-width: 900px) {
     .content {
-      margin-left: 250px;
-      width: 82vw;
+        margin-left: 250px;
+        width: calc(99vw - 250px - 10px);
     }
 
     .column {
@@ -41,4 +41,35 @@
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 900px) {
+    .responsive {
+        width: 100%;
+        align-content: center;
+    }
+
+    .content {
+        display: inline-block;
+        align-content: center;
+        width: calc(100% - 12px);
+        margin: 0px 0px 0px 12px;
+    }
+
+    .column {
+        width: 100%;
+        align-content: center;
+    }
+    
+    .row{
+        width: 100%;
+    }
+    
+    .footerlist {
+        width: 100%;
+    }
+
+    .column_hide_mobile {
+        display: none;
+    }
 }

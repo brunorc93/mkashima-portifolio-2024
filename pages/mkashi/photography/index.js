@@ -1,4 +1,3 @@
-import photography from './photography.module.css'
 import index from './../index.module.css'
 import Layout from '../../layout'
 

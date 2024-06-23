@@ -1,4 +1,3 @@
-import maps from './maps.module.css'
 import index from './../../index.module.css'
 import Layout from '../../../layout'
 

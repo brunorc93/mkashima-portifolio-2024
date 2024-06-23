@@ -52,7 +52,7 @@ export default function Layout({children}) {
             <section className={layout.main}>
                 {children}
             </section>
-            <footer>
+            <footer className={layout.footer}>
                 <Footer className={layout.foot} />
             </footer>
             

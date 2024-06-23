@@ -1,4 +1,3 @@
-import backpacks from './backpacks.module.css'
 import index from './../../index.module.css'
 import Layout from '../../../layout'
 

@@ -25,7 +25,7 @@
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 @media screen and (max-width: 900px) {
     .column_page_base {
-      width: 100%;
+        width: 100%;
     }
 }
 
@@ -103,11 +103,12 @@
 }
 
 .section {
+    height: 100%;
     margin: 20px 20px 0px 0px;
 }
 
 @media only screen and (min-width: 1300px) {
-    .column {
+    .column_home {
         float: left;
     }
 
@@ -117,11 +118,11 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .column {
+    .column_home {
         width: 100%;
         padding-top: 0px;
         padding-right: 40px;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     .jp {
@@ -132,5 +133,15 @@
 
     .section {
         margin: 0px 0px 0px 0px;
+    }
+    
+    .links_home {
+        font-size: 2.0em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .links_home {
+        font-size: 1.5em;
     }
 }

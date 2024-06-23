@@ -1,5 +1,3 @@
-import feedback from './feedback/feedback.module.css'
-import events from './events/events.module.css'
 import index from './../index.module.css'
 import Layout from '../../layout'
 

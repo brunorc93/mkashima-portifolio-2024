@@ -1,4 +1,3 @@
-import outfits from './outfits.module.css'
 import index from './../../index.module.css'
 import Layout from '../../../layout'
 

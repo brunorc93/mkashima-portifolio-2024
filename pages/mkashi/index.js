@@ -13,7 +13,7 @@ function Home() {
         </div>
         <div className={index.column_home}>
             <img src="/hello.svg" alt= "hello" width="83%" />
-            <h2>
+            <h2 className={index.h2}>
                 <p className={index.text}>Welcome :)</p><br/>
                 <p className={index.redtext}>Pixel Artist, Game Designer, Community Manager</p><br/>
                 <p className={index.text}>Here you can find some of my favorite projects</p><br/>

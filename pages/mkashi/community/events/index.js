@@ -1,4 +1,3 @@
-import events from './events.module.css'
 import index from './../../index.module.css'
 import Layout from '../../../layout'
 

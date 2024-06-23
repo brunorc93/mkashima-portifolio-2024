@@ -1,7 +1,3 @@
-import outfits from './outfits/outfits.module.css'
-import items from './items/items.module.css'
-import backpacks from './backpacks/backpacks.module.css'
-import maps from './maps/maps.module.css'
 import index from './../index.module.css'
 import Layout from '../../layout'
 
