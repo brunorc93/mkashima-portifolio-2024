@@ -18,65 +18,22 @@
 }
 
 .column {
-    width: 100%;
-    padding-top: 0px;
-    padding-right: 40px;
+    width: 45%;
+    padding: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
     align-items: baseline;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
-
-
-@media only screen and (min-width: 1300px) {
-
-    .column {
-        float: left;
-        width: 45%;
-        padding: 10px;
-        margin-top: 40px;
-        align-content: center;
-    }
-    .photo {
-        box-shadow: -10px  -10px;
-        max-height: 500%;
-        position: relative;
-    }
-
-    .links {
-        font-family: 'IBM Plex Mono', monospace;
-        font-size: 50%;
-        text-transform: uppercase;
-        text-align: right;
-        float: right;
-    }
-    .item {
-        float: right;
-    }
-
-
-    .jp {
-        position: absolute;
-        top: 51vh;
-        left: 41vw;
-        height: 35vh;
-    
-    }
+.jp {
+    position: absolute;
+    top: 51vh;
+    left: 41vw;
+    height: 35vh;
 }
-
-@media only screen and (max-width: 1300px) {
-    .jp {
-        position: absolute;
-        top: 14vh;
-        left: 55vw;
-        height: 30vw;
-    
-    }
-}
-
 
 .row:after {
     content: "";
@@ -106,4 +63,29 @@
     font-weight: 300;
     text-align: right;
     float: right;
+}
+
+@media only screen and (min-width: 1300px) {
+    .column {
+        float: left;
+    }
+
+    .photo {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .column {
+        width: 100%;
+        padding-top: 0px;
+        padding-right: 40px;
+        margin-top: 60px;
+    }
+
+    .jp {
+        top: 14vh;
+        left: 55vw;
+        height: 30vw;
+    }
 }
