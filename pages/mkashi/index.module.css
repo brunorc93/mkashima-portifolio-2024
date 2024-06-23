@@ -17,7 +17,27 @@
     color: red;
 }
 
-.column {
+.column_page_base {
+    float: left;
+    padding: 20px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 900px) {
+    .column_page_base {
+      width: 100%;
+    }
+}
+
+.column_page_2 {
+    width: 43%;
+}
+
+.column_page_3 {
+    width: 30%;    
+}
+
+.column_home {
     width: 45%;
     padding: 10px;
     display: flex;

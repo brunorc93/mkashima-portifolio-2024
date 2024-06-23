@@ -24,7 +24,7 @@ function Hunts() {
             <h6>/ pixelart / maps / hunts</h6>
             <h1 className={index.h1}>HUNTS</h1>
             <div className={index.row}>
-                <div className={maps.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={hunts1} width="100%" alt="pixelart hunt map image" />
                     <img className={index.photo_page} src={hunts2} width="100%" alt="pixelart hunt map image" />
                     <img className={index.photo_page} src={hunts3} width="100%" alt="pixelart hunt map image" />
@@ -32,7 +32,7 @@ function Hunts() {
                     <img className={index.photo_page} src={hunts5} width="100%" alt="pixelart hunt map image" />
                     <img className={index.photo_page} src={hunts6} width="100%" alt="pixelart hunt map image" />
                 </div>
-                <div className={maps.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={hunts7} width="100%" alt="pixelart hunt map image" />
                     <img className={index.photo_page} src={hunts8} width="100%" alt="pixelart hunt map image" />
                     <img className={index.photo_page} src={hunts9} width="100%" alt="pixelart hunt map image" />

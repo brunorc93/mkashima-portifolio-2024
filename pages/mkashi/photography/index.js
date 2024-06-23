@@ -70,9 +70,6 @@ const ind18 = '/img/photos/ind/ind (18).jpg'
 const port1 = '/img/photos/port/portraits (1).jpg'
 const port2 = '/img/photos/port/portraits (3).jpg'
 
-
-
-
 function Fotografia() {
     return (
         <section className={index.section}>
@@ -80,7 +77,7 @@ function Fotografia() {
             <h6>/ photo / photo / say cheese</h6>
             <h1 className={index.h1}>PHOTOS</h1>
             <div className={index.row}>
-                <div className={photography.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img className={index.photo_page} src={food1} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={food4} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={ind2} width="100%" alt="photography image" />
@@ -103,7 +100,7 @@ function Fotografia() {
                     <img className={index.photo_page} src={food39} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={ind1} width="100%" alt="photography image" />
                 </div>
-                <div className={photography.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img className={index.photo_page} src={food2} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={food5} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={food8} width="100%" alt="photography image" />
@@ -125,7 +122,7 @@ function Fotografia() {
                     <img className={index.photo_page} src={food38} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={ind17} width="100%" alt="photography image" />
                 </div>
-                <div className={photography.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img className={index.photo_page} src={food3} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={port2} width="100%" alt="photography image" />
                     <img className={index.photo_page} src={food6} width="100%" alt="photography image" />

@@ -28,7 +28,7 @@ function Outfits() {
             <h6>/ pixelart / outfits / how do I look?</h6>
             <h1 className={index.h1}>OUTFITS</h1>
             <div className={index.row}>
-                <div className={outfits.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={outfits_map1} width="100%" alt="pixelart outfits map image 1" />
                     <img src={outfits1} width="14%" alt="pixelart outfits image 1" />
                     <img src={outfits2} width="14%" alt="pixelart outfits image 2" />
@@ -38,7 +38,7 @@ function Outfits() {
                     <img src={outfits6} width="14%" alt="pixelart outfits image 6" />
                     <img src={outfits7} width="14%" alt="pixelart outfits image 7" />
                 </div>
-                <div className={outfits.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_2}>
                 <img className={index.photo_page} src={outfits_map2} width="100%" alt="pixelart outfits map image 2" />
                     <img src={outfits8} width="14%" alt="pixelart outfits image 8" />
                     <img src={outfits9} width="14%" alt="pixelart outfits image 9" />

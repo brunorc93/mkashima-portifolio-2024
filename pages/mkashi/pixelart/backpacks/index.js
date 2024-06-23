@@ -43,7 +43,7 @@ function Backpacks() {
             <h6>/ pixelart / backpacks / packing...</h6>
             <h1 className={index.h1}>BACKPACKS</h1>
             <div className={index.row}>
-                <div className={backpacks.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                 <img src={backpacks1} width="9%" alt="pixelart backpack image 1" />
                 <img src={backpacks2} width="9%" alt="pixelart backpack image 2" />
                 <img src={backpacks3} width="9%" alt="pixelart backpack image 3" />
@@ -56,7 +56,7 @@ function Backpacks() {
                 <img src={backpacks10} width="9%" alt="pixelart backpack image 10" />
                 <img src={backpacks11} width="9%" alt="pixelart backpack image 11" />
                 </div>
-                <div className={backpacks.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                 <img src={backpacks12} width="10%" alt="pixelart backpack image 12" />
                 <img src={backpacks13} width="10%" alt="pixelart backpack image 13" />
                 <img src={backpacks14} width="10%" alt="pixelart backpack image 14" />
@@ -68,7 +68,7 @@ function Backpacks() {
                 <img src={backpacks20} width="10%" alt="pixelart backpack image 20" />
                 <img src={backpacks21} width="10%" alt="pixelart backpack image 21" />
                 </div>
-                <div className={backpacks.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                 <img src={backpacks22} width="10%" alt="pixelart backpack image 22" />
                 <img src={backpacks23} width="10%" alt="pixelart backpack image 23" />
                 <img src={backpacks24} width="10%" alt="pixelart backpack image 24" />

@@ -7,11 +7,11 @@ function Home() {
     <h5>mkashi portfolio • 2024</h5>
     <h6>/ home / home / hello mellow</h6>
       <div className={index.row}>
-        <div className={index.column}>
+        <div className={index.column_home}>
             <img className={index.photo_home} src="/img/home/mk-poppy.png" alt= "poppy flower" />
             <img className={index.jp} src="/jp-text-red.svg" alt= "japanese presentation" />
         </div>
-        <div className={index.column}>
+        <div className={index.column_home}>
             <img src="/hello.svg" alt= "hello" width="83%" />
             <h2>
                 <p className={index.text}>Welcome :)</p><br/>

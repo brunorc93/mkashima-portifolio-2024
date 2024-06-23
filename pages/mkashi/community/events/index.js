@@ -53,7 +53,7 @@ function CommunityEvent() {
             <h6>/ community / events / ꆜ ꆜꆜꆜ ꆜꆜ ꆜꆜ ꆜꆜꆜꆜꆜ ꆜ ꆜꆜ</h6>
             <h1 className={index.h1}>EVENTS</h1>
             <div className={index.row}>
-                <div className={events.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={events1} width="100%" alt="community events image" />
                     <img className={index.photo_page} src={events2} width="100%" alt="community events image" />
                     <img className={index.photo_page} src={events3} width="100%" alt="community events image" />
@@ -76,7 +76,7 @@ function CommunityEvent() {
                     <img className={index.photo_page} src={events20} width="100%" alt="community events image" />
                     <img className={index.photo_page} src={events21} width="100%" alt="community events image" />
                 </div>
-                <div className={events.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_2}>
                     <img className={index.photo_page} src={events22} width="100%" alt="community events image" />
                     <img className={index.photo_page} src={events23} width="100%" alt="community events image" />
                     <img className={index.photo_page} src={events24} width="100%" alt="community events image" />

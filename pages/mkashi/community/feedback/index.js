@@ -34,7 +34,7 @@ function CommunityFeedback() {
             <h6>/ community / feedback / 🗣</h6>
             <h1 className={index.h1}>FEEDBACK</h1>
             <div className={index.row}>
-                <div className={feedback.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img src={feedback2} width="100%" alt="community feedback image 2" />
                     <img src={feedback3} width="100%" alt="community feedback image 3" />
                     <img src={feedback4} width="100%" alt="community feedback image 4" />
@@ -43,7 +43,7 @@ function CommunityFeedback() {
                     <img src={feedback7} width="100%" alt="community feedback image 7" />
                     <img src={feedback8} width="100%" alt="community feedback image 8" />
                 </div>
-                <div className={feedback.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img src={feedback9} width="100%" alt="community feedback image 9" />
                     <img src={feedback10} width="100%" alt="community feedback image 10" />
                     <img src={feedback11} width="100%" alt="community feedback image 11" />
@@ -53,7 +53,7 @@ function CommunityFeedback() {
                     <img src={feedback15} width="100%" alt="community feedback image 15" />
                     <img src={feedback16} width="100%" alt="community feedback image 16" />
                 </div>
-                <div className={feedback.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img src={feedback17} width="100%" alt="community feedback image 17" />
                     <img src={feedback18} width="100%" alt="community feedback image 18" />
                     <img src={feedback19} width="100%" alt="community feedback image 19" />

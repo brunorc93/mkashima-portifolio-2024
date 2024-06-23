@@ -70,7 +70,7 @@ function Items() {
             <h6>/ pixelart / items / ✌</h6>
             <h1 className={index.h1}>ITEMS</h1>
             <div className={index.row}>
-                <div className={items.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img src={items1} width="10%" alt="pixelart item image" />
                     <img src={items2} width="10%" alt="pixelart item image" />
                     <img src={items3} width="10%" alt="pixelart item image" />
@@ -92,7 +92,7 @@ function Items() {
                     <img src={items19} width="10%" alt="pixelart item image" />
                     <img src={items20} width="10%" alt="pixelart item image" />
                 </div>
-                <div className={items.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img src={items21} width="10%" alt="pixelart item image" />
                     <img src={items22} width="10%" alt="pixelart item image" />
                     <img src={items23} width="10%" alt="pixelart item image" />
@@ -111,7 +111,7 @@ function Items() {
                     <img src={items36} width="10%" alt="pixelart item image" />
                     <img src={items40} width="40%" alt="pixelart item image" />
                 </div>
-                <div className={items.column}>
+                <div className={index.column_page_base + ' ' + index.column_page_3}>
                     <img src={items37} width="10%" alt="pixelart item image" />
                     <img src={items38} width="10%" alt="pixelart item image" />
                     <img src={items39} width="10%" alt="pixelart item image" />
