@@ -10,8 +10,8 @@
     "clean_unix": "rm -rf node_modules",
     "reinstall": "npm run clean && npm install",
     "reinstall_unix": "npm run clean_unix && npm install",
-    "deploy": "next build && next export && echo mkashima.com > out/CNAME && echo > out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
-    "test.export": "next build && next export && echo mkashima.com> out/CNAME && echo > out/.nojekyll"
+    "deploy": "next build && next export && echo mochaup.com > out/CNAME && echo > out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
+    "test.export": "next build && next export && echo mochaup.com> out/CNAME && echo > out/.nojekyll"
   },
   "dependencies": {
     "next": "12.0.7",
