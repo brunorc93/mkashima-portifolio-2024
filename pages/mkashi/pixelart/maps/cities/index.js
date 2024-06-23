@@ -25,6 +25,8 @@ export const cities19 = '/img/pixelart/maps/cities/oakgrove-3.png'
 export const cities20 = '/img/pixelart/maps/cities/oakgrove-4.png'
 export const cities21 = '/img/pixelart/maps/cities/oakgrove-5.png'
 export const cities22 = '/img/pixelart/maps/cities/oakgrove-6.png'
+export const cities23 = '/img/pixelart/maps/cities/Captura de tela 2024-06-21 111814.png'
+export const cities24 = '/img/pixelart/maps/cities/Captura de tela 2024-06-21 120244.png'
 
 function Cities() {
     return (
@@ -45,9 +47,9 @@ function Cities() {
                     <img className={index.photo_page} src={cities9} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities10} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities11} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities12} width="100%" alt="pixelart city map image" />
                 </div>
                 <div className={index.column_page_base + ' ' + index.column_page_2}>
-                    <img className={index.photo_page} src={cities12} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities13} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities14} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities15} width="100%" alt="pixelart city map image" />
@@ -58,6 +60,8 @@ function Cities() {
                     <img className={index.photo_page} src={cities20} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities21} width="100%" alt="pixelart city map image" />
                     <img className={index.photo_page} src={cities22} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities23} width="100%" alt="pixelart city map image" />
+                    <img className={index.photo_page} src={cities24} width="100%" alt="pixelart city map image" />
                 </div>
             </div>
         </section>
