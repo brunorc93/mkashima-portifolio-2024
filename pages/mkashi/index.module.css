@@ -131,6 +131,10 @@
     .links_home {
         font-size: 2.0em;
     }
+
+    .links_page {
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -141,5 +145,9 @@
 
     .links_home {
         font-size: 1.5em;
+    }
+
+    .links_page {
+        font-size: 1.2em;
     }
 }
